@@ -10,8 +10,8 @@ import (
 	"sync"
 )
 
-//go run runner/ScriptRunner.go --curl='--location|--request|GET|https://gorest.co.in/public/v2/%s/%s'
-//go run runner/ScriptRunner.go --curl='--location|--request|GET|https://gorest.co.in/public/v2/%s/%s' --osfile=AsyncRunner/test.csv
+// go run ScriptRunner.go --curl='--location|--request|GET|https://gorest.co.in/public/v2/%s/%s'
+// go run ScriptRunner.go --curl='--location|--request|GET|https://gorest.co.in/public/v2/%s/%s' --osfile=test.csv
 var OSfile = flag.String("osfile", "", "scan")
 var CURL = flag.String("curl", "", "ConcurentRunner")
 
